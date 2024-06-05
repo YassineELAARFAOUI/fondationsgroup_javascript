@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@4.8.0/dist/web3.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <button id="donateBtn">Donate</button>
+        <h1>my Account information</h1>
+        <div>
+            <p id="yourAddressElm"></p>
+            <p id="myAdressSoldeELM"></p>
+            <button id="connectMetaMaskBtn">connect wallet</button>
+        </div>
+        <h1>fondationsManagement informations</h1>
+        <p id="ratioFondationsManagementElm"></p>
+        <p id="ownerFondationsManagementElm"></p>
+        <p id="balanceFondationsManagementElm"></p>
+          <h2>le tableux des fondations unitaires</h2>
+          <table>
+            <thead>
+                <tr>
+                    <th>fondations address</th>
+                    <th>fondation balance</th>
+                    <th>target</th>
+                    <th>status</th>
+                </tr>
+            </thead>
+            <tbody id="mytbody">
+                <th>0x040924Ea0d3E36b4F4A46A720FA5F2F442c0D3e1</th>
+                    <th>40 eth</th>
+                    <th>100 eth</th>
+                    <th>true</th>
+            </tbody>
+        </table>
+        <h1>le processus de donation a une fondation unitaire</h1>
+        <input type="number" id="amountInput" placeholder="Amount in Wei">
+        <textarea name="" id="adressFoundationUnitaireInput"></textarea>
+        <h1>redeem process</h1>
+        <button id="redeemBtn"></button>
+        <textarea name="" id="adressSmartContractUniatirereedemInput"></textarea>
+    </header>
+    
+</body>
+
+</html>
